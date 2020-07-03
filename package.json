@@ -1,5 +1,5 @@
 {
-  "name": "ibp-chaincode-log",
+  "name": "@ampretia/ibp-chaincode-log",
   "version": "1.0.0",
   "description": "Helps parse chaincode logs from IBP",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "ibpccl": "lib/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release":"standard-version"
   },
   "keywords": [],
   "author": "Matthew B White",
@@ -16,5 +16,19 @@
     "chalk": "^4.1.0",
     "line-reader": "^0.4.0",
     "yargs": "^15.4.0"
+  },
+  "contributors": [
+    {
+      "name": "Matthew White",
+      "email": "whitemat@uk.ibm.com",
+      "url": "https://github.com/mbwhite/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ampretia/node-x509.git"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.0"
   }
 }

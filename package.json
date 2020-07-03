@@ -1,19 +1,20 @@
 {
-  "name": "parseibplog",
+  "name": "ibp-chaincode-log",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helps parse chaincode logs from IBP",
   "main": "index.js",
   "bin": {
-    "μBuilder": "index.js"
+    "ibpccl": "lib/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew B White",
+  "license": "Apache 2.0",
   "dependencies": {
     "chalk": "^4.1.0",
-    "line-reader": "^0.4.0"
+    "line-reader": "^0.4.0",
+    "yargs": "^15.4.0"
   }
 }

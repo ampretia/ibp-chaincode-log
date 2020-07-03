@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ampretia/node-x509.git"
+    "url": "git@github.com:ampretia/ibp-chaincode-log.git"
   },
   "devDependencies": {
     "standard-version": "^8.0.0"

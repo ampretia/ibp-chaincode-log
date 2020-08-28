@@ -49,7 +49,7 @@ ls -l ibp.log
 
 5. This file is plain text, and is readable via text editor. The logs though have been wrapped in JSON so it's a lot easier to extact them, hence this tool.
 
-Install it with  `npm install -g @ampretia/ibpccl`
+Install it with  `npm install -g @ampretia/ibp-chaincode-log`
 
 6. Run this with the `--file` option and the output will be parsed.
 

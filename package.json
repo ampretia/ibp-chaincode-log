@@ -1,6 +1,6 @@
 {
   "name": "@ampretia/ibp-chaincode-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helps parse chaincode logs from IBP",
   "main": "index.js",
   "bin": {
